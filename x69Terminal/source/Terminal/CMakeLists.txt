@@ -1,0 +1,10 @@
+
+
+target_sources(${PROJECT_NAME} PRIVATE 
+
+	"${CMAKE_CURRENT_SOURCE_DIR}/Region.h"
+
+	"${CMAKE_CURRENT_SOURCE_DIR}/Draw.h"
+	"${CMAKE_CURRENT_SOURCE_DIR}/Draw.cpp"
+	
+	)

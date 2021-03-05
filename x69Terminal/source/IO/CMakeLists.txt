@@ -1,0 +1,11 @@
+
+
+target_sources(${PROJECT_NAME} PRIVATE 
+
+	"${CMAKE_CURRENT_SOURCE_DIR}/IO.h"
+	"${CMAKE_CURRENT_SOURCE_DIR}/IO.cpp"
+	
+	"${CMAKE_CURRENT_SOURCE_DIR}/IOBuff.h"
+	"${CMAKE_CURRENT_SOURCE_DIR}/IOBuff.cpp"
+	
+	)
